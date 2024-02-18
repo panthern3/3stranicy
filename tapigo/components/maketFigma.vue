@@ -1,5 +1,5 @@
 <template>
-    <div class="top bg-gradient-to-b from-gray-900 to-gray-800 py-16 px-8 lg:px-60">
+    <section class="top bg-gradient-to-b from-gray-900 to-gray-800 py-16 px-8 lg:px-60">
     <div class="container mx-auto my-auto">
       <div class="flex-col-reverse lg:flex-row jusify-between space-y-8 lg:space-y-0 lg:space-x-8 lg:items-center lg:relative right-8 flex">
         <article class="left flex flex-col justify-center lg:w-1/2 py-8 px-4 md:px-8 lg:px-16 lg:mr-auto mg-8 lg:mb-0">
@@ -32,7 +32,7 @@
         </article>
       </div>
     </div>
-</div>
+    </section>
   </template>
   
   <script>
@@ -42,7 +42,7 @@
   
   <style scoped>
   h2 {
-    font-family: 'Arboria-Medium'
+    font-family: 'Arboria-Medium';
   }
 
   p {
@@ -50,7 +50,7 @@
   }
 
   button {
-    font-family: 'Arboria-Medium'
+    font-family: 'Arboria-Medium';
   }
   
 </style>
