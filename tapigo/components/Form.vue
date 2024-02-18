@@ -40,7 +40,6 @@
     },
     methods: {
       submitForm() {
-        // Проверка валидности ФИО
         const fullnamePattern = /^[а-яА-ЯёЁ\s]+$/;
         if (!fullnamePattern.test(this.fullname)) {
           this.fullnameError = true;
@@ -49,7 +48,6 @@
           this.fullnameError = false;
         }
   
-        // Проверка валидности номера телефона
         const phonePattern = /^\+?\d{10,14}$/;
         if (!phonePattern.test(this.phone)) {
           this.phoneError = true;
@@ -58,7 +56,6 @@
           this.phoneError = false;
         }
   
-        // Отправка данных формы (здесь можно добавить дополнительную логику отправки)
         console.log('Отправка данных:', {
           fullname: this.fullname,
           phone: this.phone,
@@ -71,5 +68,4 @@
   </script>
   
   <style>
-  /* Здесь можно добавить стили, если требуется */
   </style>

@@ -37,7 +37,7 @@
             <nuxt-link no-prefetch to="/maket" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
             <a>Макет фигма</a>
             </nuxt-link>
-            <nuxt-link no-prefetch to="#" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
+            <nuxt-link no-prefetch to="/article" class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium">
             <a>Статья</a>
             </nuxt-link>
           </div>

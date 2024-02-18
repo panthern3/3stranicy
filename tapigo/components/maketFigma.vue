@@ -12,14 +12,11 @@
             <img src="arrow.svg" class="w-3 h-3 relative left-28 bottom-4" alt="arrow">
           </figure>
         </article>
-        <!-- Правая часть -->
         <figure class="right lg:w-1/2 lg:ml-auto mb-8 lg:mb-0">
           <img src="right.jpg" alt="Изображение" class="w-full rounded-3xl">
         </figure>
       </div>
-      <!-- Второй блок -->
       <div class="flex flex-col lg:flex-row mt-16 lg:relative left-8">
-        <!-- Левая часть -->
         <figure class="left lg:w-1/2">
           <img src="left.jpg" alt="Изображение" class="w-full rounded-3xl">
         </figure>
